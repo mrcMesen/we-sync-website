@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <section className="flex flex-col items-center justify-around md:min-h-[70vh]">
-      <div className="mb-20 md:mt-20 md:mb-0 flex place-items-center">
+      <div className="mb-20 mt-20 md:mb-0 flex place-items-center">
         <Image
           className="relative"
           src="/brand/we-sync-logo.png"
@@ -14,7 +14,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="mb-32 flex flex-wrap justify-around text-center gap-4 lg:mb-0 md:pb-[5%]">
+      <div className="mb-32  flex flex-wrap justify-around text-center gap-4 lg:mb-0 md:pb-[5%]">
         <div>
           <h2 className="mb-1 md:mb-3 text-2xl font-semibold">Task tracking</h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
